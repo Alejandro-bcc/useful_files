@@ -4,5 +4,9 @@ set autoindent
 inoremap ( ()<Left>
 inoremap [ []<Left>
 inoremap " ""<Left>
-inoremap { {<CR>}<Esc>0<Tab>
+inoremap { {<CR>}<up>
 inoremap cmt /*   */<Left><Left><Left><Left>
+
+{
+	
+}
