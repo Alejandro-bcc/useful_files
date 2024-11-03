@@ -1,4 +1,7 @@
-List of files and its functions:<br />
-  script.sh - script for comparing outputs (bad name)<br />
-  up.sh - script for uploading automatically changes in Github cloned repositories<br />
-  .vimrc - vim text editor customization <br />
+# List of files and its functions:
+
+[How to set Github on a new device](github.md)
+
+- script.sh - script for comparing outputs (bad name).
+- up.sh - script for uploading automatically changes in Github cloned repositories.
+- .vimrc - vim text editor customization.
