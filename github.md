@@ -19,3 +19,12 @@ cat ~/.ssh/id_ed25519.pub
 # 4. Go to Github.com and click on "Add SSH key"
 
 [Add SSH key](https://github.com/settings/keys)
+
+# 5. Configure your username and e-mail to link your device to your Github account
+
+```
+git config --global user.name ”Linus Torvalds”
+```
+```
+git config --global user.email linus@gmail.com
+```
