@@ -54,7 +54,7 @@ while true; do
 
     echo ""
     echo -e "${YELLOW}Currently staged changes:${NC}"
-    git diff --staged --name-status
+    git --no-pager diff --staged --name-status
     echo ""
 
     # Check if there are any changes staged for commit.
