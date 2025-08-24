@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# Put this in your .bashrc file to automatically mount the remote Materias folder when 
+# using 'cd Materias-remoto' or 'cd ~/Materias-remoto':
+#
+# cd() {
+#   if [ "$1" = "$HOME/Materias-remoto" ] || [ "$1" = "Materias-remoto" ]; then
+#       /home/alejandro/mount_materias.sh
+#   fi
+#       builtin cd "$@"
+# }
+
+
 REMOTE_USER="adnn24"
 REMOTE_HOST="ssh.inf.ufpr.br"
 REMOTE_PATH="/home/bcc/adnn24/Materias"
